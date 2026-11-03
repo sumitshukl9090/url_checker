@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Generated files
+output/
+dist/
+build/
+coverage/
+
+# Browser cache
+.playwright/
+.puppeteer/
+
+# Python cache
+__pycache__/
+venv/
+.venv/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
